@@ -23,7 +23,9 @@ namespace sqltest
                     Console.WriteLine("Write a query to return a list of each invoice that contains flowers, sorted by invoice number");
                     Console.WriteLine("=========================================");
 
-                    String sql = @"";
+                    String sql = @"
+                    
+                    ";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
@@ -44,7 +46,9 @@ namespace sqltest
                     Console.WriteLine("Write a query to return a list of product names and the amount of each product sold");
                     Console.WriteLine("=========================================");
 
-                    String sql = @"";
+                    String sql = @"
+                    
+                    ";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
@@ -65,7 +69,9 @@ namespace sqltest
                     Console.WriteLine("Write a query to return each product name and the total amount invoiced for each product where the invoice has a salesperson");
                     Console.WriteLine("=========================================");
 
-                    String sql = @"";
+                    String sql = @"
+                    
+                    ";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
