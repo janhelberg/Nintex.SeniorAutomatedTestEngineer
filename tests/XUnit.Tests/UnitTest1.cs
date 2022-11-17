@@ -4,6 +4,13 @@ namespace XUnit.Tests;
 
 public class UnitTest1
 {
+
+    [SetUp]
+    public void Setup()
+    {
+
+    }
+
     [Fact]
     public void Test1()
     {
