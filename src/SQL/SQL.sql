@@ -64,9 +64,3 @@ INSERT INTO InvoiceItem(invoiceId, productId, quantity) VALUES
     Write a query to return a list of product names and the amount of each product sold
     Tests aggregation
 */
-
-/*
-    Maybe / Maybe not?
-    Write a query to return each product name and the total amount invoiced for each product where the invoice has a salesperson
-    Tests calculations and more advanced join
-*/
