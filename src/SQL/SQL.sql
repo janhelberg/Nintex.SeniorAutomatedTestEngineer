@@ -59,8 +59,14 @@ INSERT INTO InvoiceItem(invoiceId, productId, quantity) VALUES
     Write a query to return a list of each invoice that contains flowers, sorted by invoice number
     Tests simple join, where and ordering
 */
-
+SELECT P.ProductName, i.Quanitity
+FROM PRODUCT as p
+inner join InvoiceItem as I on p.InvoiceId = i.InvoiceId
 /*
     Write a query to return a list of product names and the amount of each product sold
     Tests aggregation
 */
+SELECT * FROM INVOICE AS i
+inner join PRODUCT as p on i.Id= p.Id
+WHERE p.PRODUCTNAME = 'FLOWER'
+ORDER BY i.INVOICENUMBER ASC
